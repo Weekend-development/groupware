@@ -1,1 +1,5 @@
 rootProject.name = 'groupware'
+include 'core'
+include 'chat'
+include 'calendar'
+include 'board'
