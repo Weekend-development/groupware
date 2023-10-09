@@ -41,3 +41,9 @@ D : deleteXxx
 
 예외처리 시, ApiException(임시)을 던져 ApiResponse 생성
 에러 코드는 ENUM으로 관리
+
+## 멀티 모듈
+각 모듈 별로 필요한 Entity들은 core 모듈 안에 Entity 패키지 안에 만들것
+
+repository도 동일
+
